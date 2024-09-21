@@ -5,11 +5,32 @@ body {
   padding: 0;
 }
 
+
+
 #navbar {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space out items evenly */
   background-color: #333;
   color: white;
   padding: 10px;
+  text-align: center;
+
+  
 }
+
+.nav-image {
+  width: 200px; /* Set width for images */
+  height: auto; /* Maintain aspect ratio */
+  margin: auto;
+  border: rgb(122, 9, 9) solid 3px;
+}
+
+header {
+  flex-grow: 1; /* Allow header to take available space */
+  text-align: center; /* Center the header text */
+}
+
 
 .nav-link {
   color: white;
@@ -21,18 +42,36 @@ body {
   padding: 20px;
 }
 
+/* Center the header */
+header {
+  text-align: center;
+  /* Center the text inside the header */
+  margin-bottom: 20px;
+  /* Optional: Add some space below the header */
+}
+
 /* Media query for screens smaller than 600px */
 @media (max-width: 600px) {
   #navbar {
-      text-align: center; /* Center the navigation links */
+    text-align: center;
+    /* Center the navigation links */
   }
-  
+
   .nav-link {
-      display: block; /* Stack links vertically */
-      margin: 10px 0;
+    display: block;
+    /* Stack links vertically */
+    margin: 10px 0;
   }
 
   .main-section {
-      padding: 10px; /* Reduce padding for smaller screens */
+    padding: 10px;
+    /* Reduce padding for smaller screens */
   }
+}
+
+.Contact {
+  text-align: center;
+  list-style-type: none; /* Hide the bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
 }
