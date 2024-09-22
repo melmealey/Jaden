@@ -75,3 +75,8 @@ header {
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
 }
+
+.bold-item {
+  font-weight: bold; /* Makes text bold */
+  font-size: 1.6em; /* Adjusts font size (you can change the value as needed) */
+}

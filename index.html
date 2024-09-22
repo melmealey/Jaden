@@ -26,8 +26,6 @@
     </div>
     <img width="600" alt="Church Logo in Korean" src="https://github.com/user-attachments/assets/83c7ecf3-2064-47ef-9b91-04f2d8fe1f0e" class="nav-image" />
   </nav>
-  
-  
 
   <img width="1436" alt="Seoul at night" src="https://github.com/user-attachments/assets/d1a486de-ffcb-4e3e-8995-654d54921bc3">
 
@@ -46,9 +44,7 @@
       <header>
         <h2>Geographical Locations</h2>
       </header>
-
       <img width="500" alt="Map of Seoul" src="https://github.com/user-attachments/assets/e8f71227-3a81-4f04-8c97-1de902d6e53b">
-
       <p>Seoul, South Korea</p>
       <li>Another city</li>
       <li>Another area</li>
@@ -65,12 +61,13 @@
       <header>
         <h2>Letters</h2>
       </header>
-      <p>1st letter home</p>
-      <ul class="Letters">
-        <li><a href="link-to-9.23.24.html" target="_blank">September 23, 2024</a></li>
-        <li><a href="link-to-letter2.html" target="_blank">Flying to the MTC</a></li>
-        <li><a href="link-to-letter3.html" target="_blank">1st week at the MTC Provo, UT</a></li>
-      </ul>
+      <label for="letters-dropdown">Select a letter:</label>
+      <select id="letters-dropdown" onchange="window.location.href=this.value;">
+        <option value="">--Select a letter--</option>
+        <option value="link-to-9.23.24.html" target="_blank">September 23, 2024</option>
+        <option value="link-to-letter2.html" target="_blank">Flying to the MTC</option>
+        <option value="link-to-letter3.html" target="_blank">1st week at the MTC Provo, UT</option>
+      </select>
       <p>Facebook posts</p>
       <pre><code>
             // Example of a letter format
@@ -80,7 +77,6 @@
             Jaden
             </code></pre>
     </section>
-    
 
     <section class="main-section" id="Companions">
       <header>
@@ -122,117 +118,18 @@
         <h3>Contact</h3>
       </header>
       <ul class="Contact">
-        <li>My Mailing address here</li>
+        <li>Elder Jaden Christian Mealey
+          <br>11-20 | KOR-SEO
+          <br>2005 North 900 East, Unit #179
+          <br>Provo, UT 84602
+          <br>United States
+        </li>
         <li><a href="https://www.facebook.com">Facebook</a></li>
         <li>jaden.mealey@missionary.com</li>
-        <li>The Church of Jesus Christ of Latter-day Saints</li>
-        
+        <li class="bold-item">The Church of Jesus Christ of Latter-day Saints</li>
       </ul>
     </section>
   </main>
 </body>
 
 </html>
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaden</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  
-    <nav id="navbar">
-        <header><h1>Seoul, South Korea Mission</h1></header>
-        <a class="nav-link" href="#Elder_Jaden_C._Mealey">Elder Jaden C. Mealey</a>
-        <a class="nav-link" href="#Geographical_Locations">Geographical Locations</a>
-        <a class="nav-link" href="#Letters">Letters</a>
-        <a class="nav-link" href="#Companions">Companions</a>
-        <a class="nav-link" href="#Photos">Photos</a>
-        <a class="nav-link" href="#CONTACT">CONTACT</a>
-    </nav>
-    
-    <main id="main-doc">
-        <section class="main-section" id="Elder_Jaden_C._Mealey">
-            <header><h2>Elder Jaden C. Mealey</h2></header>
-            <pre><code>
-            // Example of code snippet
-            const example = "Hello, World!";
-            console.log(example);
-            </code></pre>
-        </section>
-        
-        <section class="main-section" id="Geographical_Locations">
-            <header><h3>Geographical Locations</h3></header>
-            <p>Seoul, South Korea</p>
-            <li>Another city</li>
-            <li>Another area</li>
-            <p>1st transfer</p>
-            <p>2nd transfer</p>
-            <pre><code>
-            // Geographic data example
-            let city = "Seoul";
-            let country = "South Korea";
-            </code></pre>
-        </section>
-        
-        <section class="main-section" id="Letters">
-            <header><h3>Letters</h3></header>
-            <p>1st letter home</p>
-            <li>September 23, 2024</li>
-            <li>Flying to the MTC</li>
-            <li>1st week at the MTC Provo, UT</li>
-            <p>Facebook posts</p>
-            <pre><code>
-            // Example of a letter format
-            Dear Family,
-            I am doing well.
-            Love,
-            Jaden
-            </code></pre>
-        </section>
-        
-        <section class="main-section" id="Companions">
-            <header><h3>Companions</h3></header>
-            <p>1st Companion</p>
-            <li>Where from</li>
-            <li>About his companion/ family/ interests</li>
-            <p>2nd Companion's name</p>
-            <li>Where from</li>
-            <li>About his companion/ family/ interests</li>
-            <pre><code>
-            // Example of companion data
-            let companion1 = {
-                name: "John Doe",
-                from: "USA"
-            };
-            </code></pre>
-        </section>
-        
-        <section class="main-section" id="Photos">
-            <header><h3>Photos</h3></header>
-            <p>MTC - Provo, Utah</p>
-            <p>September 2024</p>
-            <p>October 2024</p>
-            <pre><code>
-            // Photo descriptions
-            let photo1 = "MTC - Provo";
-            let photo2 = "September 2024";
-            </code></pre>
-        </section>
-        
-        <section class="main-section" id="CONTACT">
-            <header><h3>Contact</h3></header>
-            <ul class="Contact">
-                <li>My Mailing address here</li>
-                <li>jaden.mealey@missionary.com</li>
-                <li><a href="https://www.facebook.com">Facebook</a></li>
-            </ul>
-        </section>
-    </main>
-</body>
-</html> -->
