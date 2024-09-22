@@ -23,7 +23,7 @@ body {
   width: 200px; /* Set width for images */
   height: auto; /* Maintain aspect ratio */
   margin: auto;
-  border: rgb(122, 9, 9) solid 3px;
+  border: rgb(122, 9, 9) solid 6px;
 }
 
 header {
