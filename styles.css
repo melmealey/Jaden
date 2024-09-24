@@ -3,9 +3,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #333;
+  color: white;
 }
-
-
 
 #navbar {
   display: flex; /* Use flexbox for layout */
@@ -65,6 +65,7 @@ header {
 
   .main-section {
     padding: 10px;
+  
     /* Reduce padding for smaller screens */
   }
 }
@@ -79,4 +80,39 @@ header {
 .bold-item {
   font-weight: bold; /* Makes text bold */
   font-size: 1.6em; /* Adjusts font size (you can change the value as needed) */
+}
+
+
+.main-section {
+  text-align: center;
+}
+
+.photo-albums {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.album {
+  cursor: pointer;
+  margin: 10px;
+  text-align: center;
+}
+
+.album img {
+  width: 200px; /* Set the width for the cover photo */
+  height: 150px; /* Set the height for the cover photo */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: add rounded corners */
+  transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.album img:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.album p {
+  margin-top: 5px;
+  font-weight: bold;
 }
