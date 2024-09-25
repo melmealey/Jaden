@@ -116,3 +116,13 @@ header {
   margin-top: 5px;
   font-weight: bold;
 }
+
+.banner {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space out items evenly */
+  padding: 150px;
+  text-align: center;
+  width: 200px;
+  
+}
