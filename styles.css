@@ -5,6 +5,28 @@ body {
   padding: 0;
   background-color: #333;
   color: white;
+
+}
+
+/* Styles specific to dropdown pages */
+body.dropdown-page {
+  background-color:green; /* White background for dropdown pages */
+  color: black; /* Black text color */
+  margin: 40px; /* Different margin */
+}
+
+body.dropdown-page, h2 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body.dropdown-page, p {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: black;
+  /* border-radius: 5px; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #navbar {
@@ -117,12 +139,18 @@ header {
   font-weight: bold;
 }
 
+
+
+
 .banner {
   display: flex; /* Use flexbox for layout */
   align-items: center; /* Center items vertically */
-  justify-content: space-between; /* Space out items evenly */
-  padding: 150px;
+  justify-content: center; /* Center items horizontally */
+  padding: 15px;
   text-align: center;
-  width: 200px;
-  
+  width: 100%; /* Adjust width to allow for centering */
+}
+
+.banner img {
+  margin: 0 10px; /* Add horizontal margin to each image */
 }
