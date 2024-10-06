@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 /* Basic styles for the navigation and sections */
 body {
   font-family: Arial, sans-serif;
@@ -5,6 +9,7 @@ body {
   padding: 0;
   background-color: #333;
   color: white;
+  font-size: 20px;
 
 }
 
@@ -139,18 +144,22 @@ header {
   font-weight: bold;
 }
 
-
-
-
 .banner {
   display: flex; /* Use flexbox for layout */
-  align-items: center; /* Center items vertically */
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: center;
   justify-content: center; /* Center items horizontally */
-  padding: 15px;
   text-align: center;
   width: 100%; /* Adjust width to allow for centering */
+  margin: 30px;
 }
 
 .banner img {
   margin: 0 10px; /* Add horizontal margin to each image */
 }
+
+@media (max-width: 1000px) {
+  
+   
+  }
