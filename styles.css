@@ -46,6 +46,10 @@ body.dropdown-page, p {
   
 }
 
+h2 a {
+  color: aqua;
+}
+
 .nav-image {
   width: 200px; /* Set width for images */
   height: auto; /* Maintain aspect ratio */
