@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-/* Basic styles for the navigation and sections */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -11,13 +10,6 @@ body {
   color: white;
   font-size: 20px;
 
-}
-
-/* Styles specific to dropdown pages */
-body.dropdown-page {
-  background-color:green; /* White background for dropdown pages */
-  color: black; /* Black text color */
-  margin: 40px; /* Different margin */
 }
 
 body.dropdown-page, h2 {
@@ -30,24 +22,20 @@ body.dropdown-page, p {
   margin: 0 auto;
   padding: 10px;
   background-color: black;
-  /* border-radius: 5px; */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #navbar {
-  display: flex; /* Use flexbox for layout */
-  align-items: center; /* Center items vertically */
-  justify-content: space-between; /* Space out items evenly */
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
   background-color: #333;
   color: white;
   padding: 10px;
   text-align: center;
-
-  
 }
 
 h2 a {
-  color: aqua;
+  color: rgb(105, 84, 170);
 }
 
 .nav-image {
@@ -60,6 +48,7 @@ h2 a {
 header {
   flex-grow: 1; /* Allow header to take available space */
   text-align: center; /* Center the header text */
+  margin-bottom: 20px;
 }
 
 
@@ -72,14 +61,11 @@ header {
 .main-section {
   padding: 20px;
 }
+/* How do I make those dots go away?
+::marker {
+  display: hidden;
+} */
 
-/* Center the header */
-header {
-  text-align: center;
-  /* Center the text inside the header */
-  margin-bottom: 20px;
-  /* Optional: Add some space below the header */
-}
 
 /* Media query for screens smaller than 600px */
 @media (max-width: 600px) {
@@ -90,14 +76,11 @@ header {
 
   .nav-link {
     display: block;
-    /* Stack links vertically */
     margin: 10px 0;
   }
 
   .main-section {
     padding: 10px;
-  
-    /* Reduce padding for smaller screens */
   }
 }
 
@@ -135,7 +118,7 @@ header {
   width: 200px; /* Set the width for the cover photo */
   height: 150px; /* Set the height for the cover photo */
   object-fit: cover; /* Maintain aspect ratio */
-  border-radius: 8px; /* Optional: add rounded corners */
+  border-radius: 8px; 
   transition: transform 0.3s; /* Animation for hover effect */
 }
 
@@ -162,8 +145,3 @@ header {
 .banner img {
   margin: 0 10px; /* Add horizontal margin to each image */
 }
-
-@media (max-width: 1000px) {
-  
-   
-  }
