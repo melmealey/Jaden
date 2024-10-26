@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -35,7 +36,7 @@ body.dropdown-page, p {
 }
 
 h2 a {
-  color: rgb(105, 84, 170);
+  color: rgb(188, 170, 241);
 }
 
 .nav-image {
@@ -61,10 +62,10 @@ header {
 .main-section {
   padding: 20px;
 }
-/* How do I make those dots go away?
-::marker {
-  display: hidden;
-} */
+
+ul {
+  list-style-type: none;
+}
 
 
 /* Media query for screens smaller than 600px */
