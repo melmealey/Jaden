@@ -159,3 +159,11 @@ ul {
     gap: 20px; /* Optional: adds space between images */
     padding: 20px;
 }
+.Contact a {
+  color: white; /* Change the text color to white */
+  text-decoration: none; /* Optional: removes underline */
+}
+
+.Contact a:hover {
+  color: rgb(245, 3, 3); /* Change color on hover for visibility */
+}
