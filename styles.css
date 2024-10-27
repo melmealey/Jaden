@@ -146,3 +146,16 @@ ul {
 .banner img {
   margin: 0 10px; /* Add horizontal margin to each image */
 }
+
+.oct5 {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.oct19 {
+  display: flex;
+    justify-content: center; /* Centers the images */
+    gap: 20px; /* Optional: adds space between images */
+    padding: 20px;
+}
