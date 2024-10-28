@@ -167,3 +167,16 @@ ul {
 .Contact a:hover {
   color: rgb(245, 3, 3); /* Change color on hover for visibility */
 }
+
+.companions {
+  display: flex;
+  justify-content: center; /* Centers the images */
+  gap: 20px; /* Optional: adds space between images */
+  padding: 20px;
+}
+
+audio {
+  display: block; /* Ensures it takes up space */
+  margin: 20px auto; /* Centers it, if desired */
+ 
+}
