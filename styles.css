@@ -26,6 +26,48 @@ body.dropdown-page, p {
 }
 
 
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: column; /* Stacks the header elements */
+  align-items: center;    /* Centers the header elements */
+}
+
+.nav-links {
+  display: flex; /* Creates a flex container */
+  flex-wrap: wrap; /* Allows the links to wrap if necessary */
+  justify-content: center; /* Centers the links horizontally */
+  margin-top: 10px; /* Adds some space above the links */
+}
+
+.nav-link {
+  margin: 0 10px; /* Adds space between links */
+}
+
+@media (min-width: 768px) {
+  .nav-header {
+      flex-direction: row; /* Switches to a row layout on larger screens */
+  }
+
+  .nav-links {
+      flex-direction: row; /* Ensures links are in a row */
+  }
+}
+
+
+
+
+
+
+
+
+
 .nav-header {
   text-align: center;
 }
