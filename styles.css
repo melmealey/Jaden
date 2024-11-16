@@ -60,7 +60,11 @@ body.dropdown-page, p {
   }
 }
 
-
+.letter {
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+}
 
 
 
@@ -339,3 +343,18 @@ audio {
   margin: 20px auto; /* Centers it, if desired */
  
 }
+
+
+/* Style for the images container */
+.images-container {
+  display: flex;
+  justify-content: center;   /* Centers images horizontally */
+  align-items: center;       /* Centers images vertically (if needed) */
+  gap: 10px;                 /* Optional: Adds space between the images */
+}
+
+/* Optional: Styling for the images themselves (if needed) */
+.letter {
+  padding: 10px;  /* You can adjust the padding as needed */
+}
+
