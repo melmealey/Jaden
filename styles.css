@@ -19,13 +19,12 @@ body.dropdown-page, h2 {
 }
 
 body.dropdown-page, p {
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 10px;
   background-color: black;
+
 }
-
-
 
 #navbar {
   display: flex;
@@ -67,11 +66,6 @@ body.dropdown-page, p {
 }
 
 
-
-
-
-
-
 .nav-header {
   text-align: center;
 }
@@ -101,7 +95,18 @@ body.dropdown-page, p {
   #navbar {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items */
+    
   }
+
+  
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  /* Hide the second image inside the navbar */
+  #navbar img:nth-of-type(2) {
+    display: none;
+  }
+}
+
 
   .nav-links {
     flex-direction: column; /* Stack links vertically */
