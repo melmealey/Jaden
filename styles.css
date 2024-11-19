@@ -363,3 +363,18 @@ audio {
   padding: 10px;  /* You can adjust the padding as needed */
 }
 
+.email a {
+  color: rgb(203, 68, 248);
+}
+
+.email a:hover {
+  color: rgb(100, 200, 255); /* Change this to the color you want on hover */
+}
+
+.social-links p a {
+  color: rgb(26, 91, 171);
+}
+
+.social-links p a:hover {
+  color: rgb(65, 227, 246); /* Change this to the color you want on hover */
+}
