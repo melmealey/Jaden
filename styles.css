@@ -347,6 +347,22 @@ ul {
   color: rgb(100, 200, 255);
 }
 
+/* Normal (unvisited) link */
+.comps {
+  color: rgb(203, 68, 248);  /* Set your default color here */
+  text-decoration: none; /* Optionally remove underline */
+}
+
+/* Hover state */
+.comps:hover {
+  color: rgb(100, 200, 255);  /* Light blue on hover */
+}
+
+
+
+
+
+
 
 audio {
   display: block; /* Ensures it takes up space */
