@@ -367,7 +367,10 @@ ul {
 audio {
   display: block; /* Ensures it takes up space */
   margin: 20px auto; /* Centers it, if desired */
- 
+}
+.audio2 {
+  display: block; /* Ensures it takes up space */
+  margin: 20px auto; /* Centers it, if desired */
 }
 
 
