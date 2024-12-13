@@ -358,6 +358,21 @@ ul {
   color: rgb(100, 200, 255);  /* Light blue on hover */
 }
 
+.location:hover {
+  color: rgb(100, 200, 255);
+}
+
+/* Normal (unvisited) link */
+.location {
+  color: rgb(203, 68, 248);  /* Set your default color here */
+  text-decoration: none; /* Optionally remove underline */
+}
+
+/* Hover state */
+.location:hover {
+  color: rgb(100, 200, 255);  /* Light blue on hover */
+}
+
 
 audio {
   display: block; /* Ensures it takes up space */
